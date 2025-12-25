@@ -1,0 +1,5 @@
+{
+  "name": "ColorMix - Pintor de Figuras",
+  "description": "Herramienta inteligente para pintores de miniaturas. Sube una foto, selecciona un color y obtén la receta exacta de mezcla usando tus propias pinturas (Vallejo, Ink Color, Citadel, etc.).",
+  "requestFramePermissions": []
+}
