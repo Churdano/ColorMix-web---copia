@@ -15,6 +15,11 @@ export default defineConfig(({ mode }) => {
     },
     build: {
       target: 'esnext',
+      rollupOptions: {
+        input: {
+          main: path.resolve(__dirname, 'index.html') // Explicitly define index.html as the entry point
+        }
+      }
     },
     esbuild: {
       target: 'esnext'
