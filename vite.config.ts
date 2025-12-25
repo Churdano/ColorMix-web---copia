@@ -7,7 +7,7 @@ export default defineConfig(({ mode }) => {
   return {
     // Set the base path for GitHub Pages deployment.
     // This should match your repository name, e.g., /your-repo-name/
-    base: '/colormix---pintor-de-figuras/', 
+    base: '/ColorMix-web---copia/', 
 
     server: {
       port: 3000,
