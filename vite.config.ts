@@ -5,6 +5,10 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
   return {
+    // Set the base path for GitHub Pages deployment.
+    // This should match your repository name, e.g., /your-repo-name/
+    base: '/colormix---pintor-de-figuras/', 
+
     server: {
       port: 3000,
       host: '0.0.0.0',
